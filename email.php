@@ -9,7 +9,7 @@ if (isset($_REQUEST['name'],$_REQUEST['subject'],$_REQUEST['email'],$_REQUEST['m
       
     // Receiver email address
 
-    $to = 'receiver_email@domain.com';
+    $to = 'cc.music.producer@gmail.com';
       
     $header = "From: ".$name." <".$email."> \r\n";
     $header .= "Reply-To:  ".$name." <".$email."> \r\n";
