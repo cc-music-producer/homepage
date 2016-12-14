@@ -123,6 +123,12 @@ a:active {
   color: #5A5252;
 }
 
+h3 a:hover, h3 a:focus, h3 a:active { 
+    text-decoration: underline;
+	-moz-text-decoration-color: #5A5252;
+    text-decoration-color: #5A5252;
+}
+
 /* ======================================
  *  03. Custom margin, padding
 /* ====================================== */
